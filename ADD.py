@@ -1,8 +1,11 @@
+import os
 ID = input("What is the initials of the person?")
 NAME = input("What is the persons full name?")
 ADDRESS = input("What is the persons address?")
 f = open("data.txt", "a")
 f.write(ID + ", " + NAME + ", " + ADDRESS)
 f.close()
-print ("thank you! The data has been added to the databasse!")
+print ("thank you! The data has been added to the database!")
+os.system("pause")
 print ("closing application")
+os.system("start spptu.bat")
